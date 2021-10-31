@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* 62.5% changes the text for the whole doc to 10px*/
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+.landing {
+  height: 100vh;
+  background: url("/imgs/cloud.jpeg") no-repeat center center;
+  background-size: cover;
+}
+
+.landing h1 {
+  text-align: center;
+  padding-top: 50rem;
+  font-size: 6rem;
+  color: #333;
+}
+
+.landing h4 {
+  text-align: center;
+  padding-top: 10rem;
+  font-size: 4rem;
+  color: #333;
+}
+
+.main {
+  background: url(/imgs/cloud.jpeg) no-repeat center center;
+  background-size: cover;
+  color: #34687d;
+  height: 100vh;
+}
+
+.title {
+  background: rgba(204, 255, 255, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7vh;
+}
+.navMenu {
+  position: sticky;
+  list-style: none;
+}
+
+.navMenu li {
+  float: left;
+}
+.navMenu li a {
+  color: darkslategray;
+  text-decoration: none;
+  display: block;
+  padding: 15px 20px;
+}
+.navMenu li a:hover {
+  background-color: #3e7d95;
+  color: whitesmoke;
+}
+.intro {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.card {
+  border: 1px solid rgb(235, 152, 152);
+  border-radius: 15px;
+  background: #f4f4f4;
+  opacity: 85%;
+  font-size: 2rem;
+  width: 90rem;
+}
+
+img {
+  opacity: 85%;
+  border-radius: 20%;
+}
+.container {
+  display: flex;
+}
+.box {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: rgba(204, 255, 255, 0.3);
+  border-radius: 1.5rem;
+  width: 90%;
+  display: inline-block;
+}
+.box li {
+  list-style: none;
+  padding-top: 1rem;
+}
+
+.social {
+  display: flex;
+  font-size: 2.5rem;
+}
+
+.social li {
+  padding-right: 6rem;
+  padding-top: 2rem;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: none;
+  background: rgba(204, 255, 255, 0.2);
+}
+button:hover {
+  background: #3e7d95;
+}
