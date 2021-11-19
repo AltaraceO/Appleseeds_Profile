@@ -1,3 +1,8 @@
+/* CSS variables  */
+:root {
+  --text-color: #333;
+  --width-max: 2200px;
+}
 * {
   margin: 0;
   padding: 0;
@@ -19,14 +24,14 @@ html {
   text-align: center;
   padding-top: 50rem;
   font-size: 6rem;
-  color: #333;
+  color: var(--text-color);
 }
 
 .landing h4 {
   text-align: center;
   padding-top: 10rem;
   font-size: 4rem;
-  color: #333;
+  color: var(--text-color);
 }
 
 .main {
@@ -42,6 +47,7 @@ html {
   justify-content: space-between;
   align-items: center;
   height: 7vh;
+  max-width: var(--width-max);
 }
 .navMenu {
   position: sticky;
